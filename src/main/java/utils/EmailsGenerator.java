@@ -7,9 +7,9 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 
-public class EmailsPicker {
+public class EmailsGenerator {
 	
-	private static final String FILE_PATH = "EmailList.txt";
+	private static final String FILE_PATH = "Email.txt";
 	private static final String MAIL_PATTERN = "mapko@yahoo.com:";
 	
 	public static String getNextEmail() {

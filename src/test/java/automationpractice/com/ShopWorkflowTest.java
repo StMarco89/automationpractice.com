@@ -14,7 +14,7 @@ import automationpractice.com.pageObject.CartSummary;
 import automationpractice.com.pageObject.Clothes;
 import automationpractice.com.pageObject.ShoppingActions;
 import automationpractice.com.pageObject.SignInForm;
-import utils.EmailsPicker;
+import utils.EmailsGenerator;
 
 public class ShopWorkflowTest {
 
@@ -217,7 +217,7 @@ public class ShopWorkflowTest {
 
 		Assert.assertTrue(signinForm.getSignInForm().isDisplayed());
 
-		signinForm.setEmailField(EmailsPicker.getCurrentEmail());
+		signinForm.setEmailField(EmailsGenerator.getCurrentEmail());
 		signinForm.setPasswordField("tester123");
 		signinForm.getSignInBtn().click();
 	}

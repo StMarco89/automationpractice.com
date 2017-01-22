@@ -12,7 +12,7 @@ import automationpractice.com.pageObject.CreateAccount;
 import automationpractice.com.pageObject.CreateAccountForm;
 import automationpractice.com.pageObject.Homepage;
 import automationpractice.com.pageObject.SignInForm;
-import utils.EmailsPicker;
+import utils.EmailsGenerator;
 
 public class CreateAccountFormTest {
 
@@ -188,7 +188,7 @@ public class CreateAccountFormTest {
 
 		Assert.assertTrue(createAccountForm.getEmailBeenRegistered().isDisplayed());
 
-		createAccountForm.setCustomerEmailField(EmailsPicker.getNextEmail());
+		createAccountForm.setCustomerEmailField(EmailsGenerator.getNextEmail());
 		createAccountForm.setCustomerPasswordField("tester123");
 		createAccountForm.getRegisterBtn().click();
 

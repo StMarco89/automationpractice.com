@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import automationpractice.com.pageObject.Account;
 import automationpractice.com.pageObject.CreateAccountForm;
 import automationpractice.com.pageObject.SignInForm;
-import utils.EmailsPicker;
+import utils.EmailsGenerator;
 
 public class LoginFormTest {
 
@@ -113,7 +113,7 @@ public class LoginFormTest {
 
 	@Test(priority = 5)
 	public void successfulLogin() {
-		signin.setEmailField(EmailsPicker.getCurrentEmail());
+		signin.setEmailField(EmailsGenerator.getCurrentEmail());
 		signin.setPasswordField("tester123");
 		signin.getSignInBtn().click();
 
