@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="22" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="automationpractice.com" duration-ms="163154" started-at="2017-01-22T20:11:30Z" finished-at="2017-01-22T20:14:13Z">
+    <groups>
+    </groups>
+    <test name="automationpractice.com" duration-ms="163154" started-at="2017-01-22T20:11:30Z" finished-at="2017-01-22T20:14:13Z">
+      <class name="automationpractice.com.LoginFormTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:automationpractice.com.LoginFormTest@28d25987]" name="setup" is-config="true" duration-ms="11778" started-at="2017-01-22T21:12:25Z" finished-at="2017-01-22T21:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginPage()[pri:1, instance:automationpractice.com.LoginFormTest@28d25987]" name="loginPage" duration-ms="178" started-at="2017-01-22T21:12:37Z" finished-at="2017-01-22T21:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="invalidCredentials()[pri:2, instance:automationpractice.com.LoginFormTest@28d25987]" name="invalidCredentials" duration-ms="5023" started-at="2017-01-22T21:12:37Z" finished-at="2017-01-22T21:12:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredentials -->
+        <test-method status="PASS" signature="loginWithoutCredentials()[pri:3, instance:automationpractice.com.LoginFormTest@28d25987]" name="loginWithoutCredentials" duration-ms="4837" started-at="2017-01-22T21:12:42Z" finished-at="2017-01-22T21:12:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithoutCredentials -->
+        <test-method status="PASS" signature="emailFormat()[pri:4, instance:automationpractice.com.LoginFormTest@28d25987]" name="emailFormat" duration-ms="514" started-at="2017-01-22T21:12:47Z" finished-at="2017-01-22T21:12:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailFormat -->
+        <test-method status="PASS" signature="successfulLogin()[pri:5, instance:automationpractice.com.LoginFormTest@28d25987]" name="successfulLogin" duration-ms="1796" started-at="2017-01-22T21:12:47Z" finished-at="2017-01-22T21:12:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogin -->
+        <test-method status="PASS" signature="closeAll()[pri:0, instance:automationpractice.com.LoginFormTest@28d25987]" name="closeAll" is-config="true" duration-ms="3973" started-at="2017-01-22T21:12:49Z" finished-at="2017-01-22T21:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+      </class> <!-- automationpractice.com.LoginFormTest -->
+      <class name="automationpractice.com.ShopWorkflowTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:automationpractice.com.ShopWorkflowTest@4501b7af]" name="setup" is-config="true" duration-ms="20102" started-at="2017-01-22T21:12:53Z" finished-at="2017-01-22T21:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="selectChlotes()[pri:1, instance:automationpractice.com.ShopWorkflowTest@4501b7af]" name="selectChlotes" duration-ms="19195" started-at="2017-01-22T21:13:13Z" finished-at="2017-01-22T21:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectChlotes -->
+        <test-method status="PASS" signature="deleteCartProducts()[pri:3, instance:automationpractice.com.ShopWorkflowTest@4501b7af]" name="deleteCartProducts" duration-ms="2761" started-at="2017-01-22T21:13:32Z" finished-at="2017-01-22T21:13:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCartProducts -->
+        <test-method status="PASS" signature="checkingCartProductsQtyAndPrice()[pri:4, instance:automationpractice.com.ShopWorkflowTest@4501b7af]" name="checkingCartProductsQtyAndPrice" duration-ms="1909" started-at="2017-01-22T21:13:35Z" finished-at="2017-01-22T21:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingCartProductsQtyAndPrice -->
+        <test-method status="PASS" signature="continueToShoppingSummary()[pri:5, instance:automationpractice.com.ShopWorkflowTest@4501b7af]" name="continueToShoppingSummary" duration-ms="2883" started-at="2017-01-22T21:13:37Z" finished-at="2017-01-22T21:13:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueToShoppingSummary -->
+        <test-method status="PASS" signature="increaseQtyOfProduct1()[pri:6, instance:automationpractice.com.ShopWorkflowTest@4501b7af]" name="increaseQtyOfProduct1" duration-ms="2109" started-at="2017-01-22T21:13:40Z" finished-at="2017-01-22T21:13:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- increaseQtyOfProduct1 -->
+        <test-method status="PASS" signature="signinRequest()[pri:7, instance:automationpractice.com.ShopWorkflowTest@4501b7af]" name="signinRequest" duration-ms="3251" started-at="2017-01-22T21:13:42Z" finished-at="2017-01-22T21:13:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signinRequest -->
+        <test-method status="PASS" signature="billingAndDeliveryAddress()[pri:8, instance:automationpractice.com.ShopWorkflowTest@4501b7af]" name="billingAndDeliveryAddress" duration-ms="3774" started-at="2017-01-22T21:13:45Z" finished-at="2017-01-22T21:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- billingAndDeliveryAddress -->
+        <test-method status="PASS" signature="termsOfServiceModal()[pri:9, instance:automationpractice.com.ShopWorkflowTest@4501b7af]" name="termsOfServiceModal" duration-ms="5973" started-at="2017-01-22T21:13:49Z" finished-at="2017-01-22T21:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- termsOfServiceModal -->
+        <test-method status="PASS" signature="payment()[pri:10, instance:automationpractice.com.ShopWorkflowTest@4501b7af]" name="payment" duration-ms="6157" started-at="2017-01-22T21:13:55Z" finished-at="2017-01-22T21:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+        <test-method status="PASS" signature="confirmOrder()[pri:11, instance:automationpractice.com.ShopWorkflowTest@4501b7af]" name="confirmOrder" duration-ms="1846" started-at="2017-01-22T21:14:01Z" finished-at="2017-01-22T21:14:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmOrder -->
+        <test-method status="PASS" signature="checkIsOrderVisibleInOrderHistorySection()[pri:12, instance:automationpractice.com.ShopWorkflowTest@4501b7af]" name="checkIsOrderVisibleInOrderHistorySection" duration-ms="7295" started-at="2017-01-22T21:14:03Z" finished-at="2017-01-22T21:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIsOrderVisibleInOrderHistorySection -->
+        <test-method status="PASS" signature="closeAll()[pri:0, instance:automationpractice.com.ShopWorkflowTest@4501b7af]" name="closeAll" is-config="true" duration-ms="2720" started-at="2017-01-22T21:14:10Z" finished-at="2017-01-22T21:14:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+      </class> <!-- automationpractice.com.ShopWorkflowTest -->
+      <class name="automationpractice.com.CreateAccountFormTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:automationpractice.com.CreateAccountFormTest@59fa1d9b]" name="setup" is-config="true" duration-ms="24207" started-at="2017-01-22T21:11:30Z" finished-at="2017-01-22T21:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="authenticationPage()[pri:1, instance:automationpractice.com.CreateAccountFormTest@59fa1d9b]" name="authenticationPage" duration-ms="2560" started-at="2017-01-22T21:11:54Z" finished-at="2017-01-22T21:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticationPage -->
+        <test-method status="PASS" signature="authenticationPageEmailField()[pri:2, instance:automationpractice.com.CreateAccountFormTest@59fa1d9b]" name="authenticationPageEmailField" duration-ms="5126" started-at="2017-01-22T21:11:57Z" finished-at="2017-01-22T21:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticationPageEmailField -->
+        <test-method status="PASS" signature="personalInfoFields()[pri:3, instance:automationpractice.com.CreateAccountFormTest@59fa1d9b]" name="personalInfoFields" duration-ms="1384" started-at="2017-01-22T21:12:02Z" finished-at="2017-01-22T21:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalInfoFields -->
+        <test-method status="PASS" signature="requiredFieldsEmpty()[pri:4, instance:automationpractice.com.CreateAccountFormTest@59fa1d9b]" name="requiredFieldsEmpty" duration-ms="4878" started-at="2017-01-22T21:12:03Z" finished-at="2017-01-22T21:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requiredFieldsEmpty -->
+        <test-method status="PASS" signature="requiredFieldsInputFormat()[pri:5, instance:automationpractice.com.CreateAccountFormTest@59fa1d9b]" name="requiredFieldsInputFormat" duration-ms="4606" started-at="2017-01-22T21:12:08Z" finished-at="2017-01-22T21:12:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requiredFieldsInputFormat -->
+        <test-method status="PASS" signature="createAccountSuccessfully()[pri:6, instance:automationpractice.com.CreateAccountFormTest@59fa1d9b]" name="createAccountSuccessfully" duration-ms="7927" started-at="2017-01-22T21:12:13Z" finished-at="2017-01-22T21:12:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountSuccessfully -->
+        <test-method status="PASS" signature="closeAll()[pri:0, instance:automationpractice.com.CreateAccountFormTest@59fa1d9b]" name="closeAll" is-config="true" duration-ms="4339" started-at="2017-01-22T21:12:20Z" finished-at="2017-01-22T21:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+      </class> <!-- automationpractice.com.CreateAccountFormTest -->
+    </test> <!-- automationpractice.com -->
+  </suite> <!-- automationpractice.com -->
+</testng-results>

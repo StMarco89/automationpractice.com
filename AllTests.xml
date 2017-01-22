@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="automationpractice.com">
+
+	<test name="automationpractice.com" parallel="false" preserve-order="true">
+    <classes>
+        <class name="automationpractice.com.CreateAccountFormTest">
+            <methods>
+                <include name="authenticationPage" />
+                <include name="authenticationPageEmailField" />
+                <include name="personalInfoFields" />
+                <include name="requiredFieldsEmpty" />
+                <include name="requiredFieldsInputFormat" />
+                <include name="createAccountSuccessfully" />
+            </methods>
+        </class>
+        <class name="automationpractice.com.LoginFormTest">
+            <methods>
+                <include name="loginPage" />
+                <include name="invalidCredentials" />
+                <include name="loginWithoutCredentials" />
+                <include name="emailFormat" />
+                <include name="successfulLogin" />
+            </methods>
+        </class>
+        <class name="automationpractice.com.ShopWorkflowTest">
+            <methods>
+                <include name="selectChlotes" />
+                <include name="deleteCartProducts" />
+                <include name="checkingCartProductsQtyAndPrice" />
+                <include name="continueToShoppingSummary" />
+                <include name="increaseQtyOfProduct1" />
+                <include name="signinRequest" />
+                <include name="billingAndDeliveryAddress" />
+                <include name="termsOfServiceModal" />
+                <include name="payment" />
+                <include name="confirmOrder" />
+                <include name="checkIsOrderVisibleInOrderHistorySection" />
+            </methods>
+        </class>
+   </classes>
+</test>
+</suite>
