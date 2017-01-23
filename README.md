@@ -1,6 +1,7 @@
 # automationpractice.com
 
-This is practice of Test Automation. Over time more content would be uploaded. All comments and suggestions are welcome!
+This is practice of Test Automation. Over time more content would be uploaded. 
+All comments and suggestions are welcome!
 
 Tools:
 
